@@ -5,8 +5,8 @@ from twilio import twiml
 
 # Your Account Sid and Auth Token from twilio.com/console
 # DANGER! This is insecure. See http://twil.io/secure
-account_sid = 'AC739e6cc65ada907d6d86ab6de40a05f3'
-auth_token = '5fbfd7009894b58b380c5f0015b615c1'
+account_sid = 'Hidden'
+auth_token = 'Hidden'
 client = Client(account_sid, auth_token)
 
 messages = client.messages.list(limit=20)
